@@ -1,0 +1,195 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+
+  header{
+    background-color: rgb(210, 217, 223);
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+  
+  }
+  
+  .logo{
+    text-decoration: none;
+    color: blue;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+  
+  }
+  .navigation a{
+    color: blue;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left: 30px;
+  
+  }
+  
+  .navigation a:hover{
+    color: #601cfc;
+}
+
+section {
+    padding: 60px 100px;
+  }
+  
+
+
+body{
+    background: url(hy.jpg)no-repeat;
+    background-position: center;
+    background-size:cover;
+    background-attachment: fixed;
+    }
+
+#nav-projects{
+    background-color: #607993;
+}
+
+.projects{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+   
+}
+
+.project{
+    width: 300px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 100px ;
+    margin-bottom: 100px;
+    background-color: #2F375B;
+    border-radius: 15px;
+    box-shadow: black 3px 6px 10px;
+}
+
+
+#projects h1{
+    font-family:  Arial, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    width: max-content;
+    padding-top: 10px;
+    font-size: 35px;
+    color: black;
+    cursor: pointer;
+    transition: 0.3s;
+    font-weight: bolder;
+    
+}
+
+#projects h1:hover {
+    color: goldenrod;
+    text-shadow: black 2px 1px;
+}
+
+.project p, .project h6 , .project h3 , .project a{
+    padding: 10px;
+}
+
+.project p{
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+}
+
+.project h3{
+    text-align: center;
+    color: goldenrod;
+    font-weight: bolder;
+    font-size: 26px;
+    font-family: cursive;
+}
+
+.project a{
+    text-decoration: none;
+    color: white;
+    border: solid white 0.5px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    border-radius: 6px;
+}
+
+.project a:hover{
+    color: goldenrod;
+    border: solid goldenrod 0.5px;
+    border-radius: 6px;
+}
+
+.content{
+    display: flex;
+    justify-content: space-around;
+}
+
+.technologies{
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.technologies h6{
+    color: grey;
+}
+
+footer{
+	position: relative;
+	width: 100%;
+	height: 400px;
+	background: #101010;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+footer p:nth-child(1){
+	font-size: 30px;
+	color: white;
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+footer p:nth-child(2){
+	color: white;
+	font-size: 17px;
+	width: 500px;
+	text-align: center;
+	line-height: 26px;
+}
+.social{
+	display: flex;
+}
+.social a{
+	width: 45px;
+	height: 45px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background:  #f9004d;
+	border-radius: 50%;
+	margin: 22px 10px;
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+}
+.social a:hover{
+	transform: scale(1.3);
+	transition: .3s;
+}
+.end{
+	position: absolute;
+	color:#f9004d;
+	bottom: 35px;
+	font-size: 14px; 
+}
